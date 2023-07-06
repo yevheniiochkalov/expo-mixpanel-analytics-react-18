@@ -2,11 +2,11 @@
   "name": "@yevheniiochkalov/expo-mixpanel-analytics-react-18",
   "version": "3.0.0",
   "description": "Mixpanel integration for use with React Native apps built on Expo 47, react 18 and react-native >70",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist src/index.js && tsc",
+    "build": "rimraf src/index.js && tsc",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -19,6 +19,9 @@
     "expo",
     "mixpanel",
     "analytics"
+  ],
+  "files": [
+    "src"
   ],
   "author": "Ben Awad",
   "license": "MIT",
