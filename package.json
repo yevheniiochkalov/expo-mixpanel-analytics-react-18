@@ -20,9 +20,6 @@
     "mixpanel",
     "analytics"
   ],
-  "files": [
-    "dist/src"
-  ],
   "author": "Ben Awad",
   "license": "MIT",
   "bugs": {
