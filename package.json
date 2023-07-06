@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist src/index.js && tsc",
-    "prepublishOnly": "npm run build"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
