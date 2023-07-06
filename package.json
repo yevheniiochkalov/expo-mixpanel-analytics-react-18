@@ -1,0 +1,49 @@
+{
+  "name": "@yevheniiochkalov/expo-mixpanel-analytics-react-18",
+  "version": "3.0.0",
+  "description": "Mixpanel integration for use with React Native apps built on Expo 47, react 18 and react-native >70",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist src/index.js && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevheniiochkalov/expo-mixpanel-analytics-react-18.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "expo",
+    "mixpanel",
+    "analytics"
+  ],
+  "files": [
+    "dist/src"
+  ],
+  "author": "Ben Awad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yevheniiochkalov/expo-mixpanel-analytics-react-18/issues"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1",
+    "buffer": "6",
+    "expo-constants": "^14.0.2",
+    "expo-device": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.19",
+    "@types/react-native": "^0.67.2",
+    "rimraf": "3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "@react-native-async-storage/async-storage": "1",
+    "react": "18",
+    "react-native": "0.70"
+  }
+}
