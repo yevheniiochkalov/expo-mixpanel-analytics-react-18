@@ -22,10 +22,10 @@ export class ExpoMixpanelAnalytics {
         this.userId = null;
         this.clientId = Constants.deviceId;
         this.constants = {
-            app_build_number: Constants.manifest?.revisionId,
-            app_id: Constants.manifest?.slug,
-            app_name: Constants.manifest?.name,
-            app_version_string: Constants.manifest?.version,
+            app_build_number: Constants.expoConfig?.ios?.buildNumber,
+            app_id: Constants.expoConfig?.slug,
+            app_name: Constants.expoConfig?.name,
+            app_version_string: Constants.expoConfig?.version,
             device_name: Constants.deviceName,
             expo_app_ownership: Constants.appOwnership || undefined,
             os_version: Platform.Version,
